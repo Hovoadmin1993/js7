@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 153, 255);
+    font-family: "cambria";
+}
+
+.d1 {
+    color: rgb(99, 13, 13);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 95% 75%, 100% 100%, 80% 76%, 0% 75%);
+    width: 1000px;
+    height: 110px;
+    margin: 20px 0 20px 30px;
+    background-color: rgb(255, 179, 65);
+    border-radius: 5px;
+ }
+ 
+ .ver {
+    display: flex;
+ }
+ 
+ img {
+    width: 400px;
+    height: 350px;
+    border-radius: 50%;
+ }
+
+ #mec {
+    display: flex;
+    margin-left: 30px;
+    position: relative;
+    top: -140px;
+    flex-direction: row;
+ }
+ .tar {
+    width: 80px;
+    height: 80px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 1.5px;
+    background-color: rgb(55, 55, 255);
+    color: rgb(55, 55, 255);
+    font-size: 30px;
+    transform: rotateY(180deg);
+    transition:all .5s linear;
+    transition-delay: color .2s;
+    cursor: pointer;
+ }
+
+ .tarjs{
+     transform: rotateY(0deg);
+     color: white;
+ } 
+
+.keyb{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(13 , 1fr);
+    grid-template-rows:auto;
+    grid-gap:20px;
+}
+
+.btn{
+    background-color: brown;
+    height: 70px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.btn:hover{
+    background-color: rgb(255, 179, 65);
+    color:rgb(99, 13, 13) ;
+}
+
+.btn:active{
+    background-color: rgb(55, 55, 255);
+    color:white ;
+}
+
+.knop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.but{
+    width: 110px;
+    height: 110px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #b1b0b0;
+    outline: none;
+    border-radius: 50%;
+    border: 2px dotted black;
+    cursor: pointer;
+}
+
+#sum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    font-weight: bold;
+    font-size: 45px;
+    background-color: #b1b0b0;
+    outline: none;
+    border-radius: 50%;
+    border: 2px dotted black;
+}
